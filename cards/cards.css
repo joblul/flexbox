@@ -1,0 +1,23 @@
+.cards-container {
+    font-size: 26px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 400px;
+}
+.cards-item {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding:10px;
+    cursor:pointer;
+}
+.cards-item:first-child{
+    margin-right: auto;
+    margin-left: 20px;
+}
+.cards-item:hover{
+    background-color: lavender;
+    color:black;
+}
